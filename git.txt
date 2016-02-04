@@ -1,0 +1,10 @@
+mkdir myGit
+ls
+cd myGit
+ls
+echo "# orangePi">>README.md
+git init
+git add README.md
+git commit -m 'first commit'
+git remote add origin https://github.com/yansy115/orangePi.git
+git push origin master
